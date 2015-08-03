@@ -1,5 +1,4 @@
 import angular from 'angular';
-import 'angular-sanitize';
 const ngModuleName = 'azTrustFilter';
 const ngModule = angular.module(ngModuleName, ['ngSanitize']);
 

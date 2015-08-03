@@ -91,8 +91,7 @@
         "library": "azTrustFilter"
       },
       "externals": {
-        "angular": "angular",
-        "angular-sanitize": "'ngSanitize'"
+        "angular": "angular"
       }
     },
     "karma": "scripts/karma-overrides.js"

@@ -1,3 +1,9 @@
+# 1.0.3
+
+## Bug Fixes
+
+- Not importing angular-sanitize and adding it to `externals` anymore. Instead just relying on the end user to include it on the page.
+
 # 1.0.2
 
 ## Bug Fixes
