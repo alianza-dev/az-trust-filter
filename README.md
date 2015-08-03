@@ -37,3 +37,17 @@ Use it
 </div>
 <div ng-bind-html="userUrl | trust:'url'"></div>
 ```
+
+## LICENSE
+
+MIT
+
+## Code of Conduct
+
+[Contributor Covenant](http://contributor-covenant.org)
+
+## Credits
+
+The code for this filter was taken ([with permission](https://twitter.com/kentcdodds/status/628245089962209280))
+from [Eric Clemmons](http://ericclemmons.com/)'s post:
+[Angular Trust Filter](http://ericclemmons.com/angular/angular-trust-filter/)
