@@ -1,3 +1,9 @@
+# 1.0.2
+
+## Bug Fixes
+
+- Adding `peerDependencies` for angular and angular-sanitize.
+
 # 1.0.1
 
 ## Bug Fixes

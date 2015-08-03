@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Angular Trust Filter - $sce.trustAs via a filter | trust",
   "main": "dist/az-trust-filter.js",
+  "peerDependencies": {
+    "angular": "^1.3.x || >= 1.4.0-beta.0 || >= 1.5.0-beta.0",
+    "angular-sanitize": "^1.3.x || >= 1.4.0-beta.0 || >= 1.5.0-beta.0"
+  },
   "scripts": {
     "build:dev": "NODE_ENV=development webpack --config node_modules/kcd-common-tools/shared/webpack.config.js --progress --colors",
     "build:prod": "NODE_ENV=production webpack --config node_modules/kcd-common-tools/shared/webpack.config.js --progress --colors",
@@ -37,6 +41,9 @@
   },
   "homepage": "https://github.com/alianza-dev/az-trust-filter#readme",
   "devDependencies": {
+    "angular": "1.4.3",
+    "angular-mocks": "1.4.3",
+    "angular-sanitize": "1.4.3",
     "babel": "5.8.20",
     "babel-core": "5.8.20",
     "babel-eslint": "4.0.5",
