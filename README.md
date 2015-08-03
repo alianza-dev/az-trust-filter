@@ -12,6 +12,12 @@ application's forms.
 
 [Demo](https://jsbin.com/qozude/edit?html,js,console,output)
 
+## Installation
+
+```
+npm install -S az-trust-filter
+```
+
 ## Usage:
 
 Depend on the module
