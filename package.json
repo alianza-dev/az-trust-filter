@@ -1,7 +1,7 @@
 {
   "name": "az-trust-filter",
-  "version": "1.0.0",
-  "description": "Simple fuzzy searching",
+  "version": "1.0.1",
+  "description": "Angular Trust Filter - $sce.trustAs via a filter | trust",
   "main": "dist/az-trust-filter.js",
   "scripts": {
     "build:dev": "NODE_ENV=development webpack --config node_modules/kcd-common-tools/shared/webpack.config.js --progress --colors",
