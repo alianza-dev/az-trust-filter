@@ -1,15 +1,15 @@
-//! az-trust-filter version 1.0.2 built with ♥ by Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com) (ó ì_í)=óò=(ì_í ò)
+//! az-trust-filter version 1.0.3 built with ♥ by Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com) (ó ì_í)=óò=(ì_í ò)
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("angular"), require("'ngSanitize'"));
+		module.exports = factory(require("angular"));
 	else if(typeof define === 'function' && define.amd)
-		define(["angular", "'ngSanitize'"], factory);
+		define(["angular"], factory);
 	else if(typeof exports === 'object')
-		exports["azTrustFilter"] = factory(require("angular"), require("'ngSanitize'"));
+		exports["azTrustFilter"] = factory(require("angular"));
 	else
-		root["azTrustFilter"] = factory(root["angular"], root["'ngSanitize'"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
+		root["azTrustFilter"] = factory(root["angular"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -68,8 +68,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _angular2 = _interopRequireDefault(_angular);
 
-	__webpack_require__(2);
-
 	var ngModuleName = 'azTrustFilter';
 	var ngModule = _angular2['default'].module(ngModuleName, ['ngSanitize']);
 
@@ -95,12 +93,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ }
 /******/ ])
