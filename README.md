@@ -6,9 +6,8 @@ Status:
 [![Build Status](https://snap-ci.com/alianza-dev/az-trust-filter/branch/master/build_image)](https://snap-ci.com/alianza-dev/az-trust-filter/branch/master)
 [![Code Coverage](https://img.shields.io/codecov/c/github/alianza-dev/az-trust-filter.svg?style=flat-square)](https://codecov.io/github/alianza-dev/az-trust-filter)
 
-az-trust-filter is an AngularJS module which has a directive to help customize and render JavaScript/JSON configured forms.
-The `formly-form` directive and the `formlyConfig` service are very powerful and bring unmatched maintainability to your
-application's forms.
+az-trust-filter makes it easier to use the `ng-bind-html` directive by allowing you to avoid having to escape your stuff
+in your controller before binding it in the template.
 
 [Demo](https://jsbin.com/qozude/edit?html,js,console,output)
 
